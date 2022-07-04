@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#picture {
+  border-radius: 2%;
+  margin: 5% 5%;
+}
