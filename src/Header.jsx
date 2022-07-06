@@ -8,6 +8,8 @@ import {
 } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default class Header extends React.Component {
+
+
   render() {
     return (
       <div className="header">
@@ -27,7 +29,7 @@ export default class Header extends React.Component {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon="fab fa-github" />
+            <FontAwesomeIcon icon="fab fa-github" size="lg" />
           </a>
           <a
             href="https://www.linkedin.com/in/maxime-gourgues/"
@@ -35,7 +37,7 @@ export default class Header extends React.Component {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" size="lg" />
           </a>
           <a
             href="https://troopl.com/gourguesmaxime"
@@ -43,7 +45,7 @@ export default class Header extends React.Component {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon="fa-solid fa-folder-open" />
+            <FontAwesomeIcon icon="fa-solid fa-folder-open" size="lg" />
           </a>
         </div>
       </div>
