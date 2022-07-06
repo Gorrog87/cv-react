@@ -6,10 +6,11 @@ import {
   regular,
   brands,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
+ import { dom } from "@fortawesome/fontawesome-svg-core";
+
+ dom.watch();
 
 export default class Header extends React.Component {
-
-
   render() {
     return (
       <div className="header">
@@ -18,14 +19,13 @@ export default class Header extends React.Component {
           src="https://avatars.githubusercontent.com/u/88392395?s=400&u=7f6249d4f819bd3fd6b245a982ec8473858a3ad3&v=4"
           alt="Maxime Gourgues"
         />
-        <div id="spacing">
+        <div>
           <h1>Maxime Gourgues</h1>
           <h4>Développeur frontend junior</h4>
         </div>
         <div className="socialLinks">
           <a
             href="https://github.com/Gorrog87"
-            id="spacing"
             rel="noreferrer"
             target="_blank"
           >
@@ -33,7 +33,6 @@ export default class Header extends React.Component {
           </a>
           <a
             href="https://www.linkedin.com/in/maxime-gourgues/"
-            id="spacing"
             rel="noreferrer"
             target="_blank"
           >
@@ -41,7 +40,6 @@ export default class Header extends React.Component {
           </a>
           <a
             href="https://troopl.com/gourguesmaxime"
-            id="spacing"
             rel="noreferrer"
             target="_blank"
           >

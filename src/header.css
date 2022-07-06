@@ -1,11 +1,10 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: 10%;
+  justify-content: space-evenly;
 }
 
-.socialLinks{
+.socialLinks {
   display: flex;
 }
 
@@ -15,6 +14,15 @@
   height: 25vh;
 }
 
-#spacing {
-  margin-right: 15%;
+/* .fa-linkedin {
+  margin-left: 100%;
+}
+
+.fa-folder-open {
+  margin-left: 100%;
+} */
+
+a {
+  margin-left: 30%;
+  color: #80AF9B;
 }
