@@ -4,17 +4,27 @@
   justify-content: space-evenly;
 }
 
-.socialLinks {
-  display: flex;
+.headerName {
+  margin-left: -20%;
 }
 
-#picture {
-  border-radius: 5%;
-  margin: 5% 5%;
-  height: 25vh;
+.socialLinks {
+  display: flex;
+  margin-left: -20%;
+}
+
+.line{
+  
 }
 
 a {
   margin-left: 30%;
-  color: #80AF9B;
+  color: #80af9b;
+}
+
+#picture {
+  border-radius: 5%;
+  margin-top: 5%;
+  margin-left: -5%;
+  height: 25vh;
 }
