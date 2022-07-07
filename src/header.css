@@ -10,16 +10,12 @@
 
 .socialLinks {
   display: flex;
-  margin-left: -20%;
-}
-
-.line{
-  
+  justify-content: space-around;
 }
 
 a {
-  margin-left: 30%;
   color: #80af9b;
+  margin-left: -25%;
 }
 
 #picture {
