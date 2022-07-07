@@ -1,14 +1,7 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import header from "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  solid,
-  regular,
-  brands,
-} from "@fortawesome/fontawesome-svg-core/import.macro";
- import { dom } from "@fortawesome/fontawesome-svg-core";
-
- dom.watch();
 
 export default class Header extends React.Component {
   render() {
