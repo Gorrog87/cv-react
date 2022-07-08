@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.duo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10%;
+}
+
+#html {
+  color: #e34a2b;
+}
+
+#css {
+  color: #224add;
+}
+
+#js {
+  color: #e8d44d;
+}
+
+#ruby {
+  color: #c60000;
+}
+
+#sql {
+  color: #0178a6;
+}
+
+#react {
+  color: #50d7f7;
+  background: #212121;
+}
+
+#git {
+  color: #d74a34;
+}
+
+#heroku {
+  color: #645fa1;
+}
