@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Bio from './Bio';
 import Skills from "./Skills";
+import Languages from "./Languages";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Bio />
       <Skills />
+      <Languages />
     </div>
   );
 }

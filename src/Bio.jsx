@@ -1,6 +1,5 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
-import bio from "./bio.css";
+import "./bio.css";
 
 export default class Bio extends React.Component {
   render() {

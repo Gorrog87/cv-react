@@ -1,6 +1,5 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
-import skills from "./skills.css";
+import  "./skills.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   solid,
