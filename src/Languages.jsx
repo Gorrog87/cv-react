@@ -7,7 +7,7 @@ export default class Languages extends React.Component {
     return (
       <div className="languagesAndHobbies">
         <div className="languages">
-          <h3>Langues</h3>
+          <h3 id="languages">Langues</h3>
           <ul>
             <div className="duo">
               <FR title="Fr" id="flag" />
@@ -24,7 +24,7 @@ export default class Languages extends React.Component {
           </ul>
         </div>
         <div className="hobbies">
-          
+
         </div>
       </div>
     );
