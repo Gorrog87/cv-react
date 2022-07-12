@@ -1,5 +1,6 @@
 import React from "react";
 import "./languages.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FR, GB, ES } from "country-flag-icons/react/3x2";
 
 export default class Languages extends React.Component {
@@ -9,22 +10,40 @@ export default class Languages extends React.Component {
         <div className="languages">
           <h3 id="languages">Langues</h3>
           <ul>
-            <div className="duo">
+            <div className="duo-flags">
               <FR title="Fr" id="flag" />
               <li>Français : Natal</li>
             </div>
-            <div className="duo">
+            <div className="duo-flags">
               <GB title="Gb" id="flag" />
               <li>Anglais : lu / parlé</li>
             </div>
-            <div className="duo">
+            <div className="duo-flags">
               <ES title="Es" id="flag" />
               <li>Espagnol : indépendant</li>
             </div>
           </ul>
         </div>
         <div className="hobbies">
-
+          <h3>Hobbies</h3>
+          <ul>
+            <div className="duo">
+              <FontAwesomeIcon icon="fas fa-golf-ball" />
+              <li>Golf : hcp 3</li>
+            </div>
+            <div className="duo">
+              <FontAwesomeIcon icon="fas fa-water" />
+              <li>Plongée sous marine</li>
+            </div>
+            <div className="duo">
+              <FontAwesomeIcon icon="fas fa-running" />
+              <li>Course à pied</li>
+            </div>
+            <div className="duo">
+              <FontAwesomeIcon icon="fas fa-biking" />
+              <li>Vélo</li>
+            </div>
+          </ul>
         </div>
       </div>
     );

@@ -1,16 +1,23 @@
-.languages {
+.languagesAndHobbies {
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 5%;
 }
 
-h3{
+h3 {
   margin-left: 15%;
 }
 
-#flag{
+#flag {
   height: 3vh;
   margin-bottom: 1%;
 }
 
-#languages{
+#languages {
   margin-left: 10%;
+}
+
+.duo-flags {
+  display: flex;
+  gap: 5%;
 }
