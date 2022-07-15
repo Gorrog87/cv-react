@@ -4,6 +4,7 @@ import Bio from './Bio';
 import Skills from "./Skills";
 import Languages from "./Languages";
 import Formation from "./Formation";
+import Experience from "./Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Formation/>
       <Skills />
       <Languages />
+      <Experience />
     </div>
   );
 }
