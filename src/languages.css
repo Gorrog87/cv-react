@@ -20,4 +20,5 @@ h3 {
 .duo-flags {
   display: flex;
   gap: 5%;
+  align-items: center;
 }
