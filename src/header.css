@@ -14,17 +14,28 @@
 }
 
 a {
-  color: #80af9b;
+  color: #fafaeb;
+  /* color: #80af9b; */
   margin-left: -25%;
 }
 
-#picture {
-  border-radius: 5%;
+/* #picture {
+  border: solid 5px #D8D6D7;
+  border-radius: 50%;
   margin-top: 5%;
   margin-left: -5%;
   height: 25vh;
-}
+  object-fit: cover;
+} */
 
+img {
+  border: solid 5px #d8d6d7;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: -5%;
+  height: 25vh;
+  /* background-color: #d8d6d7; */
+}
 
 /*
 // Small devices (landscape phones, 576px and up)
