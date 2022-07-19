@@ -11,15 +11,15 @@ export default class Languages extends React.Component {
           <h3 id="languages">Langues</h3>
           <ul>
             <div className="duo-flags">
-              <FR title="Fr" id="flag" />
+              <FR title="Fr" id="flag" className="iconHover"/>
               <li>Français : Natal</li>
             </div>
             <div className="duo-flags">
-              <GB title="Gb" id="flag" />
+              <GB title="Gb" id="flag" className="iconHover"/>
               <li>Anglais : lu / parlé</li>
             </div>
             <div className="duo-flags">
-              <ES title="Es" id="flag" />
+              <ES title="Es" id="flag" className="iconHover"/>
               <li>Espagnol : indépendant</li>
             </div>
           </ul>
@@ -28,19 +28,19 @@ export default class Languages extends React.Component {
           <h3>Hobbies</h3>
           <ul>
             <div className="duo">
-              <FontAwesomeIcon icon="fas fa-golf-ball" />
+              <FontAwesomeIcon icon="fas fa-golf-ball" className="iconHover"/>
               <li>Golf : hcp 3</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fas fa-water" />
+              <FontAwesomeIcon icon="fas fa-water" className="iconHover"/>
               <li>Plongée sous marine</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fas fa-running" />
+              <FontAwesomeIcon icon="fas fa-running" className="iconHover"/>
               <li>Course à pied</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fas fa-biking" />
+              <FontAwesomeIcon icon="fas fa-biking" className="iconHover"/>
               <li>Vélo</li>
             </div>
           </ul>
