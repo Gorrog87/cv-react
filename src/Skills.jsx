@@ -13,35 +13,43 @@ export default class Skills extends React.Component {
           </div>
           <ul>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-brands fa-html5" id="html"/>
+              <FontAwesomeIcon icon="fa-brands fa-html5" id="html" />
               <li>HTML</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-brands fa-css3-alt" id="css"/>
+              <FontAwesomeIcon icon="fa-brands fa-css3-alt" id="css" />
               <li>CSS</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-brands fa-js-square" id="js"/>
+              <FontAwesomeIcon icon="fa-brands fa-js-square" id="js" />
               <li>JavaScript</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-solid fa-gem" id="ruby"/>
+              <FontAwesomeIcon icon="fa-brands fa-vuejs" id="vue" />
+              <li>Vue.Js</li>
+            </div>
+            <div className="duo">
+              <FontAwesomeIcon icon="fa-brands fa-php" id="php"/>
+              <li>PHP</li>
+            </div>
+            <div className="duo">
+              <FontAwesomeIcon icon="fa-solid fa-gem" id="ruby" />
               <li>Ruby / Rails</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-brands fa-react" id="react"/>
+              <FontAwesomeIcon icon="fa-brands fa-react" id="react" />
               <li>React</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-brands fa-git-square" id="git"/>
+              <FontAwesomeIcon icon="fa-brands fa-git-square" id="git" />
               <li>Git / Github</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-solid fa-database" id="sql"/>
+              <FontAwesomeIcon icon="fa-solid fa-database" id="sql" />
               <li>SQL</li>
             </div>
             <div className="duo">
-              <FontAwesomeIcon icon="fa-solid fa-server" id="heroku"/>
+              <FontAwesomeIcon icon="fa-solid fa-server" id="heroku" />
               <li>Heroku</li>
             </div>
           </ul>
