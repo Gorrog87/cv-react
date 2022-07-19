@@ -8,7 +8,7 @@ export default class Header extends React.Component {
       <div className="header">
         <img
           id="picture"
-          src="https://avatars.githubusercontent.com/u/88392395?s=400&u=7f6249d4f819bd3fd6b245a982ec8473858a3ad3&v=4"
+          src="./Photo - CV.jpg"
           alt="Maxime Gourgues"
         />
         <div className="headerName">
