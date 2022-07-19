@@ -15,6 +15,10 @@ ul {
   gap: 10%;
 }
 
+.iconHover:hover{
+  transform: rotate(30deg);
+}
+
 #html {
   color: #e34a2b;
 }
