@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
       <Bio />
-      <Formation/>
+      <Formation />
       <Skills />
       <Languages />
       <Experience />
