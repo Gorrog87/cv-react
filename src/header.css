@@ -1,3 +1,16 @@
+a {
+  color: #fafaeb;
+  /* color: #80af9b; */
+  margin-left: -25%;
+}
+
+img {
+  border-radius: 10%;
+  margin-top: 5%;
+  margin-left: -5%;
+  height: 25vh;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -13,18 +26,72 @@
   justify-content: space-around;
 }
 
-a {
-  color: #fafaeb;
-  /* color: #80af9b; */
-  margin-left: -25%;
+@media screen and (max-width: 320px) {
+  h3 {
+    margin-left: unset;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerName {
+    margin-left: unset;
+  }
+
+  .formation {
+    margin: 0 5%;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+  }
+
+  .languagesAndHobbies {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience {
+    margin: 10% 2% 0 1%;
+  }
+
+  #forma {
+    margin: unset;
+  }
+
+  #languages {
+    margin-left: unset;
+  }
+
+  #responsable {
+    text-align: center;
+    margin: 5% 3% 0 0;
+  }
 }
 
-img {
-  border-radius: 10%;
-  margin-top: 5%;
-  margin-left: -5%;
-  height: 25vh;
-}
+/* @media screen and (max-width: 320px), (max-width: 480px)
+   @media screen and (min-width: 481px), (max-width: 600px)
+   @media screen and (max-width: 768px)
+   @media screen and (max-width: 900px)
+   @media screen and (max-width: 1024px)
+   @media screen and (max-width: 1200px)
+*/
 
 /*
 // Small devices (landscape phones, 576px and up)
