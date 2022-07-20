@@ -1,5 +1,5 @@
 import React from "react";
-import Cv from "cv.jsx";
+import Cv from "./Cv";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
