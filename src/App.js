@@ -1,12 +1,6 @@
 import React from "react";
-import Cv from "cv";
-/* import Header from "./Header";
-import Bio from './Bio';
-import Skills from "./Skills";
-import Languages from "./Languages";
-import Formation from "./Formation";
-import Experience from "./Experience"; */
-import { BrowserRouter as Router } from "react-router-dom";
+import Cv from "cv.jsx";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -14,12 +8,6 @@ function App() {
       <Route path="/cv">
         <Cv />
       </Route>
-     {/*  <Header />
-      <Bio />
-      <Formation />
-      <Skills />
-      <Languages />
-      <Experience /> */}
     </Router>
   );
 }

@@ -6,15 +6,17 @@ import Languages from "./Languages";
 import Formation from "./Formation";
 import Experience from "./Experience";
 
-function Cv() {
-  return (
-    <div>
-      <Header />
-      <Bio />
-      <Formation />
-      <Skills />
-      <Languages />
-      <Experience />
-    </div>
-  );
-};
+export default class Cv extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Bio />
+        <Formation />
+        <Skills />
+        <Languages />
+        <Experience />
+      </div>
+    );
+  };
+}
