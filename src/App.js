@@ -1,21 +1,26 @@
 import React from "react";
-import Header from "./Header";
+import Cv from "cv";
+/* import Header from "./Header";
 import Bio from './Bio';
 import Skills from "./Skills";
 import Languages from "./Languages";
 import Formation from "./Formation";
-import Experience from "./Experience";
+import Experience from "./Experience"; */
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <Router>
+      <Route path="/cv">
+        <Cv />
+      </Route>
+     {/*  <Header />
       <Bio />
       <Formation />
       <Skills />
       <Languages />
-      <Experience />
-    </div>
+      <Experience /> */}
+    </Router>
   );
 }
 
