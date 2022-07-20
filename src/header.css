@@ -1,8 +1,6 @@
-a {
+.header a {
   color: #fafaeb;
-  /* color: #80af9b; */
   margin-left: -25%;
-  /* test */
 }
 
 img {

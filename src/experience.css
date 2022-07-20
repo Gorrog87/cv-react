@@ -11,6 +11,7 @@
 .exp-list {
   list-style: circle;
   list-style-position: inside;
+  margin-bottom: 5%;
 }
 
 #date-exp{
