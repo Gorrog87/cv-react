@@ -1,13 +1,15 @@
 import React from "react";
+import Home from "Home";
 import Cv from "./Cv";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <Route path="/cv">
+      <Home path="/cv"/>
+{/*       <Route path="/cv"> */}
         <Cv />
-      </Route>
+{/*       </Route> */}
     </Router>
   );
 }
