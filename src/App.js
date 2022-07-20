@@ -7,7 +7,9 @@ function App() {
   return (
     <Router>
       <Home />
-      <Route><Cv /></Route>
+      <Route>
+        <Cv />
+      </Route>
     </Router>
   );
 }
