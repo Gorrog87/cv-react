@@ -2,13 +2,13 @@ import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
 
-export default class Home extends React.Component {
-  render() {
-    return (
-      <div className="home">
-        <h1>Welcome to my Website !</h1>
-        <Link to={"/resume"}>Resume</Link>
-      </div>
-    );
-  }
+const Home = () => {
+  return (
+    <div className="home">
+      <h1>Welcome to my Website !</h1>
+      <Link to="/resume">Resume</Link>
+    </div>
+  );
 }
+
+export default Home;

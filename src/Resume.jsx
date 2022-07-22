@@ -1,27 +1,24 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import Header from "./Header";
 import Bio from "./Bio";
 import Skills from "./Skills";
 import Languages from "./Languages";
 import Formation from "./Formation";
 import Experience from "./Experience";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 
-export default class Resume extends React.Component {
-  render() {
-    return (
-      <Router>
-        <Route path="/resume">
-          <div>
-            <Header />
-            <Bio />
-            <Formation />
-            <Skills />
-            <Languages />
-            <Experience />
-          </div>
-        </Route>
-      </Router>
-    );
-  }
+const Resume = () => {
+  return (
+    <div>
+    <Link to="/">home</Link>
+      <Header />
+      <Bio />
+      <Formation />
+      <Skills />
+      <Languages />
+      <Experience />
+    </div>
+  );
 }
+
+export default Resume;
