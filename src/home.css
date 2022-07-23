@@ -1,1 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  letter-spacing: 1px;
+}
 
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+a,
+li,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.welcome{
+  margin-top: 5%;
+}
+
+#home{
+  margin: 2% 2%;
+}
+
+#resume{
+  display: flex;
+  justify-content: center;
+}

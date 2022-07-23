@@ -10,7 +10,7 @@ import Experience from "./Experience";
 const Resume = () => {
   return (
     <div>
-    <Link to="/">home</Link>
+    <Link to="/" id="home">home</Link>
       <Header />
       <Bio />
       <Formation />
