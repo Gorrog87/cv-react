@@ -19,17 +19,45 @@ li,
 p {
   font-family: "Montserrat", sans-serif;
 }
-
-.welcome{
-  margin-top: 5%;
-}
-
-#home{
- margin: 10% 0% 0% 5%;
- color: #fafaeb;
-}
-
-#resume{
+.home {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home p {
+  margin: 0 0 0 0;
+  white-space: break-spaces;
+}
+
+.welcome {
+  margin-top: 5%;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.home-nav-links {
+  display: flex;
+  align-items: baseline;
+}
+
+#home {
+  margin: 10% 0% 0% 5%;
+  color: #fafaeb;
+}
+
+#resume {
+  /* display: flex;
+  justify-content: center; */
+  text-decoration: none;
+  color: #000000;
+}
+
+#arrow {
+  /* margin-bottom: 5%;
+  margin-left: 2%; */
+}
+
+#new-feature {
+  /* margin-bottom: 5%;
+  margin-left: -23%; */
 }
