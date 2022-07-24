@@ -17,6 +17,7 @@ ul {
 
 .iconHover:hover{
   transform: rotate(30deg);
+  transition: 0.3s;
 }
 
 #html {

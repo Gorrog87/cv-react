@@ -12,7 +12,7 @@ const Resume = () => {
   return (
     <div>
       <Link to="/" id="home">
-        <FontAwesomeIcon icon="fas fa-igloo" />
+        <FontAwesomeIcon icon="fas fa-igloo" className="igloo" />
       </Link>
       <Header />
       <Bio />

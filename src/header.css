@@ -1,6 +1,7 @@
 .header a {
   color: #fafaeb;
   margin-left: -25%;
+  /* transition: 0.3s; */
 }
 
 img {
