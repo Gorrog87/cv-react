@@ -19,12 +19,14 @@ li,
 p {
   font-family: "Montserrat", sans-serif;
 }
+
 .welcome{
   margin-top: 5%;
 }
 
 #home{
-  margin: 2% 2%;
+ margin: 10% 0% 0% 5%;
+ color: #fafaeb;
 }
 
 #resume{
