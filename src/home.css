@@ -24,6 +24,7 @@ p {
   flex-direction: column;
   align-items: center;
 }
+
 .home p {
   margin: 0 0 0 0;
   white-space: break-spaces;
@@ -46,18 +47,12 @@ p {
 }
 
 #resume {
-  /* display: flex;
-  justify-content: center; */
   text-decoration: none;
   color: #000000;
 }
 
-#arrow {
-  /* margin-bottom: 5%;
-  margin-left: 2%; */
-}
-
-#new-feature {
-  /* margin-bottom: 5%;
-  margin-left: -23%; */
+#resume:hover {
+  color: #00000052;
+  transition: 0.3s;
+  /* transform: translateY(10px);    <-----   just to keep a reminder on how to do     */
 }
