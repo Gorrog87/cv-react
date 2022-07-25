@@ -18,7 +18,7 @@ const Formation = () => {
       </div>
       <div className="duo-formation">
         <img
-          src="https://res.cloudinary.com/studentbe/image/upload/company_logos_44677_1438349966"
+          src="https://www.frenchtechbordeaux.com/wp-content/uploads/2019/01/le-wagon-color.png"
           alt="Le Wagon Logo"
           id="le-wagon"
         />
