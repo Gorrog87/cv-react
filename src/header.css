@@ -26,7 +26,7 @@ img {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px) {
   h3 {
     margin-left: unset;
     text-align: center;
@@ -84,6 +84,65 @@ img {
     margin: 5% 3% 0 0;
   }
 }
+
+/* @media screen and (max-width: 390px) {
+  h3 {
+    margin-left: unset;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerName {
+    margin-left: unset;
+  }
+
+  .formation {
+    margin: 0 5%;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+  }
+
+  .languagesAndHobbies {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience {
+    margin: 10% 2% 0 1%;
+  }
+
+  #forma {
+    margin: unset;
+  }
+
+  #languages {
+    margin-left: unset;
+  }
+
+  #responsable {
+    text-align: center;
+    margin: 5% 3% 0 0;
+  }
+} */
 
 /* @media screen and (max-width: 320px), (max-width: 480px)
    @media screen and (min-width: 481px), (max-width: 600px)
