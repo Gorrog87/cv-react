@@ -11,7 +11,7 @@ const Home = () => {
           Resume
         </Link>
         <p id="arrow"> {">"} </p>
-        <p id="new-feature">New features soon</p>
+        <p id="new-feature">New features comming soon</p>
       </div>
     </div>
   );

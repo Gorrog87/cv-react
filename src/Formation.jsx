@@ -11,10 +11,10 @@ const Formation = () => {
           alt="o'clock-logo"
           id="o-clock-logo"
         />
-        <h5>
+        <p>
           O'clock (octobre 2022 - février 2024) en alternance : Concepteur /
           Développeur d'applications web
-        </h5>
+        </p>
       </div>
       <div className="duo-formation">
         <img
@@ -22,10 +22,10 @@ const Formation = () => {
           alt="Le Wagon Logo"
           id="le-wagon"
         />
-        <h5>
+        <p>
           Le Wagon - Paris (janvier - mars 2022) : Concepteur / Développeur
           d'applications web
-        </h5>
+        </p>
       </div>
     </div>
   );

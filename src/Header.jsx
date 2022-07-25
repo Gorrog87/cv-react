@@ -5,7 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
   return (
     <div className="header">
-      <img id="picture" src="./Photo - CV.jpg" alt="Maxime Gourgues" />
+      <img
+        id="picture"
+        src="https://avatars.githubusercontent.com/u/88392395?v=4"
+        alt="Maxime Gourgues"
+      />
       <div className="headerName">
         <h1>Maxime Gourgues</h1>
         <h4>Développeur frontend junior</h4>

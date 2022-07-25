@@ -9,8 +9,12 @@
   gap: 2%;
 }
 
+.duo-formation p {
+  margin: unset;
+}
+
 #forma {
-  margin: 3% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
 }
 
 #le-wagon {
