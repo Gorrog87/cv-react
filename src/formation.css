@@ -1,7 +1,30 @@
-.formation{
+.formation {
   text-align: center;
 }
 
-#forma{
+.duo-formation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+#forma {
   margin: 3% 0% 0% 0%;
+}
+
+#le-wagon {
+  width: 10vw;
+  border-radius: unset;
+  margin-top: unset;
+  margin-left: unset;
+  height: unset;
+}
+
+#o-clock-logo{
+  width: 10vw;
+  border-radius: unset;
+  margin-top: unset;
+  margin-left: unset;
+  height: unset;
 }
