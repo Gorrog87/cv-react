@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <Router>
-        <Route exact path="/">
+        {/* <Route exact path="/">
           <Home />
-        </Route>
-        <Route path="/resume">
+        </Route> */}
+        <Route path="/">
           <Resume />
         </Route>
       </Router>
