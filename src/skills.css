@@ -15,7 +15,7 @@ ul {
   gap: 10%;
 }
 
-.iconHover:hover{
+.iconHover:hover {
   transform: rotate(30deg);
   transition: 0.3s;
 }
@@ -54,7 +54,7 @@ ul {
 }
 
 #vue {
-  color: #32475B;
+  color: #32475b;
 }
 
 #php {

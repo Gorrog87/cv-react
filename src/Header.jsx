@@ -14,19 +14,21 @@ const Header = () => {
         <h1>Maxime Gourgues</h1>
         <h4>Développeur frontend junior</h4>
         <div className="socialLinks">
-          <a
-            href="https://github.com/Gorrog87"
-            rel="noreferrer"
-            target="_blank"
-            className="iconHover"
-          >
-            <FontAwesomeIcon icon="fab fa-github" size="lg" />
-          </a>
+            <a
+              href="https://github.com/Gorrog87"
+              rel="noreferrer"
+              target="_blank"
+              className="iconHover"
+              id="githubHover"
+            >
+              <FontAwesomeIcon icon="fab fa-github" size="lg" />
+            </a>
           <a
             href="https://www.linkedin.com/in/maxime-gourgues/"
             rel="noreferrer"
             target="_blank"
             className="iconHover"
+            id="linkedinHover"
           >
             <FontAwesomeIcon icon="fa-brands fa-linkedin" size="lg" />
           </a>
@@ -35,6 +37,7 @@ const Header = () => {
             rel="noreferrer"
             target="_blank"
             className="iconHover"
+            id="trooplHover"
           >
             <FontAwesomeIcon icon="fa-solid fa-folder-open" size="lg" />
           </a>
