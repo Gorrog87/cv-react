@@ -48,6 +48,21 @@ p {
   perspective: 1000px;
 }
 
+#resume {
+  text-decoration: none;
+  color: #000000;
+}
+
+#resume:hover {
+  color: #00000052;
+  transition: 0.3s;
+  /* transform: translateY(10px);    <-----   just to keep a reminder on how to do     */
+}
+
+#new-feature{
+  opacity: 0.4;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -62,14 +77,3 @@ p {
   40%, 60% {
     transform: translate3d(2px, 0, 0);
 }}
-
-#resume {
-  text-decoration: none;
-  color: #000000;
-}
-
-#resume:hover {
-  color: #00000052;
-  transition: 0.3s;
-  /* transform: translateY(10px);    <-----   just to keep a reminder on how to do     */
-}
